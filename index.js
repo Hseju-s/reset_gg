@@ -15,9 +15,9 @@ module.exports = function TuturuGG(dispatch) {
         });
 	};
 
-    dispatch.hook('S_LOGIN', 'raw', event => {
-    	finished = false; 
-    }); 
+	dispatch.game.on('enter_game', () => {
+		finished = false;
+    });
 
     dispatch.hook('S_LOAD_TOPO', 3, event => {
     	if(finished && resetZone.includes(event.zone)) {
