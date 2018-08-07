@@ -7,10 +7,10 @@ module.exports = function TuturuGG(dispatch) {
 		boxId = 0;
 
 	const alert = (msg) => {
-	 	dispatch.toClient('S_DUNGEON_EVENT_MESSAGE', 1, {
-            unk1: 2,
-            unk2: 0,
-            unk3: 0,
+		dispatch.toClient('S_DUNGEON_EVENT_MESSAGE', 2, {
+        	type: 2, //31
+        	chat: 0,
+        	channel: 27,
             message: msg
         });
 	};

@@ -1,9 +1,9 @@
 {
   "files": {
-    "index.js": "8a9f9d1343eb4b1aba75b9bffc0e204697f11f462a5a5b4507654f89340b1dab"
+    "index.js": "9518ef8bf416b859bb8c0fb9bb48ace70801c65f539292746da45fdd9e87d607"
   },
-  "defs": {
-	  "S_DUNGEON_EVENT_MESSAGE": 1,
+    "defs": {
+	  "S_DUNGEON_EVENT_MESSAGE": 2,
 	  "C_RESET_ALL_DUNGEON": 1,
 	  "S_LOAD_TOPO": 3,
 	  "S_SPAWN_NPC": 7,
