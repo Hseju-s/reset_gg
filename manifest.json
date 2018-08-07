@@ -1,12 +1,12 @@
 {
   "files": {
-    "index.js": "8a9f9d1343eb4b1aba75b9bffc0e204697f11f462a5a5b4507654f89340b1dab",
+    "index.js": "8a9f9d1343eb4b1aba75b9bffc0e204697f11f462a5a5b4507654f89340b1dab"
   },
   "defs": {
-        "S_DUNGEON_EVENT_MESSAGE": 1,
-        "C_RESET_ALL_DUNGEON": 1,
-        "S_LOAD_TOPO": 3,
-        "S_SPAWN_NPC": 7,
-        "S_DESPAWN_NPC": 3
-    }
+	  "S_DUNGEON_EVENT_MESSAGE": 1,
+	  "C_RESET_ALL_DUNGEON": 1,
+	  "S_LOAD_TOPO": 3,
+	  "S_SPAWN_NPC": 7,
+	  "S_DESPAWN_NPC": 3
+  }
 }
